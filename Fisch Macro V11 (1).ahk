@@ -1,7 +1,7 @@
 ﻿#SingleInstance Force
-setkeydelay, -1
-setmousedelay, -1
-setbatchlines, -1
+setkeydelay, -20
+setmousedelay, -10
+setbatchlines, -12
 SetTitleMatchMode 2
 
 CoordMode, Tooltip, Relative
@@ -12,7 +12,7 @@ CoordMode, Mouse, Relative
 
 ; Set to true to automatically lower graphics to 1
 AutoLowerGraphics := true
-AutoGraphicsDelay := 50
+AutoGraphicsDelay := 10
 
 ; Set to true to automatically zoom in the camera
 AutoZoomInCamera := true
@@ -37,7 +37,7 @@ RestartDelay := 1000
 HoldRodCastDuration := 1000
 
 ; How long to wait for the bobber to land in water
-WaitForBobberDelay := 1000
+WaitForBobberDelay := 1120
 
 ; Set this to your navigation key, IMPORTANT
 NavigationKey := "\"
