@@ -1,7 +1,7 @@
 ﻿#SingleInstance Force
 setkeydelay, -20
-setmousedelay, -10
-setbatchlines, -12
+setmousedelay, -100
+setbatchlines, -1
 SetTitleMatchMode 2
 
 CoordMode, Tooltip, Relative
@@ -67,7 +67,7 @@ NavigationSpamDelay := 10
 ;     MINIGAME SETTINGS     ====================================================================================================;
 
 ; Bar size is automatically calculated, set manual value to override
-ManualBarSize := 0
+ManualBarSize := 264.05298
 ; Seconds for calculation to be considered failed
 BarCalculationFailsafe := 10
 ; Color range to scan for initial white bar
