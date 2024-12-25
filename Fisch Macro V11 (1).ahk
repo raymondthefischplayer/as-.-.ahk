@@ -67,7 +67,7 @@ NavigationSpamDelay := 10
 ;     MINIGAME SETTINGS     ====================================================================================================;
 
 ; Bar size is automatically calculated, set manual value to override
-ManualBarSize := 264.05298
+ManualBarSize := 264.052982
 ; Seconds for calculation to be considered failed
 BarCalculationFailsafe := 10
 ; Color range to scan for initial white bar
