@@ -891,11 +891,4 @@ else
 	tooltip, , , , 20
 	sleep %RestartDelay%
 	goto RestartMacro
-	}
-        #define SETPORT(PORT, VAL)  outb( (VAL), (PORT) )
-#define GETPORT(PORT)       inb( PORT )
-#define SETBITS(PORT, BITS) outb( (inb(PORT) | (BITS)), (PORT) )
-#define CLRBITS(PORT, BITS) outb( (inb(PORT) & ~(BITS)), (PORT) )
-#define TESTHI(PORT, BITS)  ((inb(PORT) & (BITS)) == (BITS))
-#define TESTLO(PORT, BITS)  ((inb(PORT) & (BITS)) == 0)
-#define SETRATE(RATE)       SETPORT(SCSIRATE,(RATE) & 0x7f)
+        }
