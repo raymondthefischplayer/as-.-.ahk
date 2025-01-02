@@ -79,7 +79,7 @@ WhiteBarColorTolerance := 5
 ArrowColorTolerance := 0
 
 ; Amount of clicks per action cycle
-StabilizerLoop := 10
+StabilizerLoop := 500
 ; Ratio for bar side maximum hold (1 = max bar|0.5 = half bar)
 SideBarRatio := 0.8
 ; Multiplier for how long to wait at the sides to prevent bounce
@@ -213,7 +213,7 @@ Tooltip13 := (WindowHeight/2)+(20*3)
 Tooltip14 := (WindowHeight/2)+(20*4)
 Tooltip15 := (WindowHeight/2)+(20*5)
 Tooltip16 := (WindowHeight/2)+(20*6)
-Tooltip17 := (WindowHeight/2)+(20*7)
+Tooltip17 := (WindowHeight/2)+(20*7)	
 Tooltip18 := (WindowHeight/2)+(20*8)
 Tooltip19 := (WindowHeight/2)+(20*9)
 Tooltip20 := (WindowHeight/2)+(20*10)
@@ -381,7 +381,7 @@ tooltip, Right Count: 0/10, %TooltipX%, %Tooltip9%, 9
 rightcounter := 0
 if (AutoEnableCameraMode == true)
 	{
-	PixelSearch, , , CameraCheckLeft, CameraCheckTop, CameraCheckRight, CameraCheckBottom, 0xFFFFFF, 0, Fast
+	PixelSearch, , , CameraCheckLeft, CameraCheckTop, CameraCheckRight, CameraCheckBottom, 0xFFFFFF, 0, Super Fast
 	if (ErrorLevel == 0)
 		{
 		sleep %AutoCameraDelay%
